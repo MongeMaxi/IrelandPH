@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+*{
+	font-family: 'Roboto', sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+html{
+	font-size: 62.5%;
+}
+
+body{
+	background-image: url(../img/background.png);
+	background-attachment: fixed;
+}
+
+main {
+    width: 80vw;
+   height: auto;
+    margin: 20px auto;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    gap: 65px;
+}
+
+h1,h2,h3{
+		color: #BB1717;
+	font-family: 'Roboto', sans-serif;
+}
+
+h1{
+	font-size: 4rem;
+}
+
+h2{
+	font-size: 3rem;
+	font-weight: 400;
+}
+h3{
+	font-size: 2rem;
+}
+
+p{
+	color:#000000;
+	line-height: 2rem;
+	font-size: 1.6rem;
+}
+
+
+
+#botonera{
+	background-color: rgba(255, 0, 0, 0.4);
+	top: 0;
+	padding: 10px 30px;
+}
+
+.index__articulo{
+	width: 70%;
+	height: auto;
+	/*overflow: auto;*/
+	margin: 10px auto;
+	padding: 10px 30px;
+	box-sizing: border-box;
+	border: double 4px rgba(255, 0, 0, 0.4);
+}
+
+.index__contacto{
+	width: 70%;
+	height: auto;
+	overflow: auto;
+	margin: 10px auto;
+	padding: 10px 30px;
+	box-sizing: border-box;
+	border: double 4px rgba(255, 0, 0, 0.4);
+}
+
+.index__mapa{
+	width: 70%;
+	height: auto;
+	/*overflow: auto;*/
+	margin: 10px auto;
+	padding: 10px 30px;
+	box-sizing: border-box;
+	border: double 4px rgba(255, 0, 0, 0.4);
+
+}
+
+.nosotros__articulo{
+    width: 90%;
+    height: auto;
+    /*overflow: auto;*/
+    margin: 10px auto;
+    padding: 10px 30px;
+    box-sizing: border-box;
+    border: double 4px rgba(255, 0, 0, 0.4);
+
+}
+
+.galeria__div{
+	width: 90%;
+	height: auto;
+	/*overflow: auto;*/
+	margin: 10px auto;
+	padding: 10px 30px;
+	box-sizing: border-box;
+	border: double 4px rgba(255, 0, 0, 0.4);
+}
+
+.FAQ__div{
+	width: 90%;
+	height: auto;
+	/*overflow: auto;*/
+	margin: 10px auto;
+	padding: 10px 30px;
+	box-sizing: border-box;
+	border: double 4px rgba(255, 0, 0, 0.4);
+}
+
+.pie{
+	padding: 30px auto;
+	width: 100%;
+}
+
+.pie a{
+	text-decoration: none;
+}
+.pie__icon--sm{
+	width: 30px;
+}
+
+.pie__titulo--sm{
+	font-size: 2rem;
+	text-align: center;
+	display: inline-block;
+}
+
+div {
+  animation-duration: 0.5s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+} 
+
+a:hover{
+	animation-name: buttonUnderline;
+	animation-duration: 0.7s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes buttonUnderline{
+	0%{
+		text-decoration-line: none;
+	}
+
+	100%{
+		text-decoration-line: underline;
+		font-size: 150%;
+	}
+}
