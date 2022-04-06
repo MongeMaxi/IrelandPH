@@ -1,0 +1,19 @@
+footer{
+  .pie {
+    padding: 30px auto;
+    width: 100%; 
+    .pie a {
+      text-decoration: none; 
+     }
+  }
+
+  .pie__icon--sm {
+    width: 30px; 
+  }
+
+  .pie__titulo--sm {
+    font-size: $textMd;
+    text-align: center;
+    display: inline-block; 
+  }
+}

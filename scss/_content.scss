@@ -1,0 +1,136 @@
+//css viejo//
+
+
+*{
+	font-family: $fontMain;
+	padding: 0;
+	margin: 0;
+}
+
+html{
+	font-size: $htmlFontSize;
+}
+
+body{
+	background-image: url(../img/background.png);
+	background-attachment: fixed;
+
+
+	main {
+	    width: 80vw;
+	   height: auto;
+	    margin: 20px auto;
+	    display: grid;
+	    grid-template-rows: 1fr;
+	    grid-template-columns: 1fr;
+	    gap: 65px;	
+
+		h1,h2,h3{
+				color: #BB1717;
+			font-family: $fontMain;
+		}
+
+		h1{
+			font-size: $textXl;
+		}
+
+		h2{
+			font-size: $textXl;
+			font-weight: 400;
+		}
+		h3{
+			font-size: $textMd;
+		}
+
+		p{
+			color:#000000;
+			line-height: 2rem;
+			font-size: $textSm;
+		}
+	}
+}
+
+
+
+
+.index__articulo{
+	width: 70%;
+	height: auto;
+	/*overflow: auto;*/
+	margin: 10px auto;
+	padding: 10px 30px;
+	box-sizing: border-box;
+	border: double 4px $mainColor;
+}
+
+.index__contacto{
+	width: 70%;
+	height: auto;
+	overflow: auto;
+	margin: 10px auto;
+	padding: 10px 30px;
+	box-sizing: border-box;
+	border: double 4px $mainColor;
+}
+
+.index__mapa{
+	width: 70%;
+	height: auto;
+	/*overflow: auto;*/
+	margin: 10px auto;
+	padding: 10px 30px;
+	box-sizing: border-box;
+	border: double 4px $mainColor;
+
+}
+
+.nosotros__articulo{
+    width: 90%;
+    height: auto;
+    /*overflow: auto;*/
+    margin: 10px auto;
+    padding: 10px 30px;
+    box-sizing: border-box;
+    border: double 4px $mainColor;
+
+}
+
+.galeria__div{
+	width: 90%;
+	height: auto;
+	/*overflow: auto;*/
+	margin: 10px auto;
+	padding: 10px 30px;
+	box-sizing: border-box;
+	border: double 4px $mainColor;
+}
+
+.FAQ__div{
+	width: 90%;
+	height: auto;
+	/*overflow: auto;*/
+	margin: 10px auto;
+	padding: 10px 30px;
+	box-sizing: border-box;
+	border: double 4px $mainColor;
+}
+
+
+div {
+  animation-duration: 0.5s;
+  animation-name: slidein;
+
+
+	@keyframes slidein {
+	  from {
+	    margin-left: 100%;
+	    width: 300%;
+	  }
+
+	  to {
+	    margin-left: 0%;
+	    width: 100%;
+	  }
+	} 
+}
+

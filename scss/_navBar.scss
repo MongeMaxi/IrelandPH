@@ -1,0 +1,25 @@
+#botonera{
+	background-color: $mainColor;
+	top: 0;
+	padding: 10px 30px;
+	a{
+		font-size: $textSm;
+	}
+		a:hover{
+		animation-name: buttonUnderline;
+		animation-duration: 0.7s;
+		animation-iteration-count: infinite;
+	}
+
+	@keyframes buttonUnderline{
+		0%{
+			text-decoration-line: none;
+
+		}
+
+		100%{
+			text-decoration-line: underline;
+			font-size: $textMd;
+		}
+	}
+}
