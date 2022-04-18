@@ -43,7 +43,7 @@
 <!--ends botonera-->
 <!-- carrusel-->
 	<header>
-		<div id="carrusel" class="carousel slide" data-bs-ride="carousel">
+		<div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
       <img src="img/fotoindex.PNG" class="d-block w-100" alt="...">
@@ -52,12 +52,21 @@
       <img src="img/car1.jpg" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="img/fotoSeven.PNG" class="d-block w-100" alt="...">
+      <img src="img/fotoConcierto.PNG" class="d-block w-100" alt="...">
     </div>
   </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
 </div>
 	</header>
 <!--ends carrusel-->
+<!--sobre nosotros-->
 	<main class="index" id="main">
 		<section>
 			<div class="mainDiv" >
@@ -66,6 +75,8 @@
 					<p class="text-center">Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae legendos at vix ad putent delectus delicata usu. Vidit dissentiet eos cu eum an brute copiosae hendrerit. Eos erant dolorum an. Per facer affert ut. Mei iisque mentitum moderatius cu. Sit munere facilis accusam eu dicat falli consulatu at vis. Te facilisis mnesarchum qui posse omnium mediocritatem est cu. Modus argumentum ne qui tation efficiendi in eos. Ei mea falli legere efficiantur et tollit aliquip debitis mei. No deserunt mediocritatem mel. Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae legendos at vix ad putent delectus delicata usu. Vidit dissentiet eos cu eum an brute copiosae hendrerit. Eos erant dolorum an. Per facer affert ut. Mei iisque mentitum moderatius cu. Sit munere facilis accusam eu dicat falli consulatu at vis. Te facilisis mnesarchum qui posse omnium mediocritatem est cu. Modus argumentum ne qui tation efficiendi in eos. Ei mea falli legere efficiantur et tollit aliquip debitis mei. No deserunt mediocritatem mel. Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae legendos at vix ad putent delectus delicata usu. Vidit dissentiet eos cu eum an brute copiosae hendrerit. Eos erant dolorum an. Per facer affert ut. Mei iisque</p>
 				</article>
 			</div>
+<!--ends sobre nosotros-->
+<!--contacto-->
 			<div class="bgDark index__contacto divContacto">
 				<h2 class="text-center ">Contacto</h2>
 				<form action="envio.php" method="post" id="contacto">
@@ -80,10 +91,10 @@
 							<input type="numero" placeholder="Escribe aqui..." name="telefono" id="telefono">
 
 						</fieldset>
-					¡</div>
-					<label for="mensaje" class="text-center">Deja tu mensaje</label><br>
+					</div>
+					<label for="mensaje" class="text-center"></label><br>
 					<div align="center">
-						<textarea name="comentario" id="comentario" cols="20" rows="10" placeholder="deja tu mensaje">
+						<textarea name="comentario" id="comentario" cols="20" rows="10" placeholder="Escribe un mensaje">
 						</textarea>
 						
 					</div>
@@ -93,12 +104,14 @@
 				</form>
 
 			</div>
-
+<!--ends contacto-->
+<!--mapa-->
 			<div class="bgDark index__mapa divMap" >
 				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.530501707241!2d-58.46081868425678!3d-34.616031865657874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca1ec1b66849%3A0x6eeefa253c172b86!2sAv.%20Tte.%20Gral.%20Donato%20%C3%81lvarez%20900%2C%20C1406BOT%20CABA!5e0!3m2!1ses!2sar!4v1645741867543!5m2!1ses!2sar" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy">
 				</iframe>
 			</div>
 		</section>
+<!--ends mapa-->
 	</main>
 	<footer class="bgDark pie footer">
 			<h3 class="textCenter textItalic pie__titulo--md">Seguinos en nuestras redes</h3>
@@ -112,5 +125,7 @@
 				<img src="img/instagram.png" alt="Seguinos en Instagram" class="pie__icon--sm">
 			</a>
 	</footer>
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
