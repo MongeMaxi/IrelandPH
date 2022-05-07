@@ -1,4 +1,4 @@
-//css viejo//
+
 
 
 *{
@@ -54,69 +54,32 @@ body{
 
 
 .index__articulo{
-	width: 70%;
-	height: auto;
-	/*overflow: auto;*/
-	margin: 10px auto;
-	padding: 10px 30px;
-	box-sizing: border-box;
-	border: double 4px $mainColor;
+	@include indexSizes(70%, auto, auto, 10px auto, 10px 30px, border-box, double 4px $mainColor)
 }
 
 .index__contacto{
-	width: 70%;
-	height: auto;
-	overflow: auto;
-	margin: 10px auto;
-	padding: 10px 30px;
-	box-sizing: border-box;
-	border: double 4px $mainColor;
+		@include indexSizes(70%, auto, auto, 10px auto, 10px 30px, border-box, double 4px $mainColor)
 }
 
 .index__mapa{
-	width: 70%;
-	height: auto;
-	/*overflow: auto;*/
-	margin: 10px auto;
-	padding: 10px 30px;
-	box-sizing: border-box;
-	border: double 4px $mainColor;
+		@include indexSizes(70%, auto, auto, 10px auto, 10px 30px, border-box, double 4px $mainColor)
+}
+
+.nosotros__articulo{	@include indexSizes(90%, auto, auto, 10px auto, 10px 30px, border-box, double 4px $mainColor)
+  
 
 }
 
-.nosotros__articulo{
-    width: 90%;
-    height: auto;
-    /*overflow: auto;*/
-    margin: 10px auto;
-    padding: 10px 30px;
-    box-sizing: border-box;
-    border: double 4px $mainColor;
+.galeria__div{	@include indexSizes(90%, auto, auto, 10px auto, 10px 30px, border-box, double 4px $mainColor)
 
 }
 
-.galeria__div{
-	width: 90%;
-	height: auto;
-	/*overflow: auto;*/
-	margin: 10px auto;
-	padding: 10px 30px;
-	box-sizing: border-box;
-	border: double 4px $mainColor;
-}
+.FAQ__div{	@include indexSizes(90%, auto, auto, 10px auto, 10px 30px, border-box, double 4px $mainColor)
 
-.FAQ__div{
-	width: 90%;
-	height: auto;
-	/*overflow: auto;*/
-	margin: 10px auto;
-	padding: 10px 30px;
-	box-sizing: border-box;
-	border: double 4px $mainColor;
 }
 
 
-div {
+header {
   animation-duration: 0.5s;
   animation-name: slidein;
 

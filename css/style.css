@@ -7815,7 +7815,7 @@ textarea.form-control-lg {
   margin: 0; }
 
 #botonera {
-  background-color: rgba(255, 0, 0, 0.4);
+  background-color: #E27676;
   top: 0;
   padding: 10px 30px; }
   #botonera a {
@@ -7869,11 +7869,11 @@ body {
 .index__articulo {
   width: 70%;
   height: auto;
-  /*overflow: auto;*/
+  overflow: auto;
   margin: 10px auto;
   padding: 10px 30px;
   box-sizing: border-box;
-  border: double 4px rgba(255, 0, 0, 0.4); }
+  border: double 4px #E27676; }
 
 .index__contacto {
   width: 70%;
@@ -7882,45 +7882,45 @@ body {
   margin: 10px auto;
   padding: 10px 30px;
   box-sizing: border-box;
-  border: double 4px rgba(255, 0, 0, 0.4); }
+  border: double 4px #E27676; }
 
 .index__mapa {
   width: 70%;
   height: auto;
-  /*overflow: auto;*/
+  overflow: auto;
   margin: 10px auto;
   padding: 10px 30px;
   box-sizing: border-box;
-  border: double 4px rgba(255, 0, 0, 0.4); }
+  border: double 4px #E27676; }
 
 .nosotros__articulo {
   width: 90%;
   height: auto;
-  /*overflow: auto;*/
+  overflow: auto;
   margin: 10px auto;
   padding: 10px 30px;
   box-sizing: border-box;
-  border: double 4px rgba(255, 0, 0, 0.4); }
+  border: double 4px #E27676; }
 
 .galeria__div {
   width: 90%;
   height: auto;
-  /*overflow: auto;*/
+  overflow: auto;
   margin: 10px auto;
   padding: 10px 30px;
   box-sizing: border-box;
-  border: double 4px rgba(255, 0, 0, 0.4); }
+  border: double 4px #E27676; }
 
 .FAQ__div {
   width: 90%;
   height: auto;
-  /*overflow: auto;*/
+  overflow: auto;
   margin: 10px auto;
   padding: 10px 30px;
   box-sizing: border-box;
-  border: double 4px rgba(255, 0, 0, 0.4); }
+  border: double 4px #E27676; }
 
-div {
+header {
   animation-duration: 0.5s;
   animation-name: slidein; }
 

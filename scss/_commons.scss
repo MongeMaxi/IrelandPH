@@ -1,5 +1,5 @@
 //VARIABLES GLOBALES
-$mainColor: rgba(255, 0, 0, 0.4);
+$mainColor: #E27676;
 
 
 //sizing
@@ -7,3 +7,15 @@ $w-100:100%;
 $w-75:75%;
 $w-50:50%;
 $w-25:25%;
+
+@mixin indexSizes($width, $height, $overflow, $margin, $padding, $box-sizing, $border){
+	width: $width;
+	height: $height;
+	overflow: $overflow;
+	margin: $margin;
+	padding: $padding;
+	box-sizing: $box-sizing;
+	border: $border;
+}
+
+
